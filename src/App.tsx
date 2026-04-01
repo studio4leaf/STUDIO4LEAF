@@ -17,11 +17,11 @@ export default function App() {
     <div className="min-h-screen bg-gray-50 font-sans text-gray-900 selection:bg-[#72E07B] selection:text-black">
       {/* Navigation */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md border-b border-gray-100">
-        <div className="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+        <div className="max-w-6xl mx-auto px-6 h-20 md:h-24 flex items-center justify-between">
           <div className="flex items-center gap-2">
             {/* Logo Placeholder - Mimicking the provided logo */}
             <div className="flex items-start">
-              <img src="./images/studio4leaflogo.png" alt="스튜디오 로고" className="h-8 w-auto" />
+              <img src="https://github.com/studio4leaf/STUDIO4LEAF/blob/main/images/studio4leaflogo.png?raw=true" alt="스튜디오 로고" className="h-12 md:h-16 w-auto" />
             </div>
           </div>
           <a 
@@ -115,7 +115,8 @@ export default function App() {
               <span className="inline-block py-1.5 px-4 rounded-full bg-[#72E07B]/10 text-[#4caf54] font-bold text-sm mb-6 border border-[#72E07B]/20 tracking-wide">
                 최신 AI 기술 도입 · 압도적인 제작 속도
               </span>
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tight leading-[1.3] mb-6 break-keep">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tight leading-[1.4] mb-6 break-keep">
+                <span className="text-[#72E07B]">스튜디오 포리프</span>와 함께하는<br />
                 빠르고 합리적인 가격의<br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5bc964] to-[#38a141]">
                   AI 홈페이지 제작
@@ -308,12 +309,11 @@ export default function App() {
             >
               <div className="relative rounded-3xl overflow-hidden aspect-square max-w-md mx-auto bg-gray-200 shadow-xl">
                 <img 
-                  src="https://placehold.co/800x800/e5e7eb/a1a1aa?text=Profile+Image" 
+                  src="https://github.com/studio4leaf/STUDIO4LEAF/blob/main/images/profile.png?raw=true" 
                   alt="Studio 4leaf Profile" 
                   className="object-cover w-full h-full"
                   referrerPolicy="no-referrer"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
               </div>
             </motion.div>
             
@@ -546,7 +546,7 @@ export default function App() {
       <footer className="bg-white py-12 px-6 border-t border-gray-100">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
           <div className="flex flex-col items-center md:items-start gap-4">
-            <img src="./images/studio4leaflogo.png" alt="스튜디오 로고" className="h-8 w-auto grayscale opacity-80" />
+            <img src="https://github.com/studio4leaf/STUDIO4LEAF/blob/main/images/studio4leaflogo.png?raw=true" alt="스튜디오 로고" className="h-16 md:h-20 w-auto" />
             <div className="flex gap-3 mt-2">
               <a href="https://blog.naver.com/be_sonder" target="_blank" rel="noopener noreferrer" className="bg-[#03C75A] text-white text-xs font-bold px-3 py-1.5 rounded-full hover:opacity-90 transition-opacity flex items-center gap-1">
                 N 블로그
