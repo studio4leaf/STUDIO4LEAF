@@ -21,7 +21,7 @@ export default function App() {
           <div className="flex items-center gap-2">
             {/* Logo Placeholder - Mimicking the provided logo */}
             <div className="flex items-start">
-              <img src="https://github.com/studio4leaf/STUDIO4LEAF/blob/main/images/studio4leaflogo.png?raw=true" alt="스튜디오 로고" className="h-12 md:h-16 w-auto" />
+              <img src="./images/studio4leaflogo.png" alt="스튜디오 로고" className="h-12 md:h-16 w-auto" />
             </div>
           </div>
           <a 
@@ -309,7 +309,7 @@ export default function App() {
             >
               <div className="relative rounded-3xl overflow-hidden aspect-square max-w-md mx-auto bg-gray-200 shadow-xl">
                 <img 
-                  src="https://github.com/studio4leaf/STUDIO4LEAF/blob/main/images/profile.png?raw=true" 
+                  src="./images/profile.png" 
                   alt="Studio 4leaf Profile" 
                   className="object-cover w-full h-full"
                   referrerPolicy="no-referrer"
@@ -546,7 +546,7 @@ export default function App() {
       <footer className="bg-white py-12 px-6 border-t border-gray-100">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
           <div className="flex flex-col items-center md:items-start gap-4">
-            <img src="https://github.com/studio4leaf/STUDIO4LEAF/blob/main/images/studio4leaflogo.png?raw=true" alt="스튜디오 로고" className="h-16 md:h-20 w-auto" />
+            <img src="./images/studio4leaflogo.png" alt="스튜디오 로고" className="h-16 md:h-20 w-auto" />
             <div className="flex gap-3 mt-2">
               <a href="https://blog.naver.com/be_sonder" target="_blank" rel="noopener noreferrer" className="bg-[#03C75A] text-white text-xs font-bold px-3 py-1.5 rounded-full hover:opacity-90 transition-opacity flex items-center gap-1">
                 N 블로그
