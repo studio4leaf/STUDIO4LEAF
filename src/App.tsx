@@ -21,7 +21,7 @@ export default function App() {
           <div className="flex items-center gap-2">
             {/* Logo Placeholder - Mimicking the provided logo */}
             <div className="flex items-start">
-              <img src="https://placehold.co/120x40/f3f4f6/a1a1aa?text=LOGO" alt="Studio 4leaf Logo" className="h-8 w-auto" referrerPolicy="no-referrer" />
+              <img src="./images/studio4leaflogo.png" alt="스튜디오 로고" className="h-8 w-auto" />
             </div>
           </div>
           <a 
@@ -546,7 +546,7 @@ export default function App() {
       <footer className="bg-white py-12 px-6 border-t border-gray-100">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center md:items-start gap-8">
           <div className="flex flex-col items-center md:items-start gap-4">
-            <img src="https://placehold.co/120x40/f3f4f6/a1a1aa?text=LOGO" alt="Studio 4leaf Logo" className="h-8 w-auto grayscale opacity-80" referrerPolicy="no-referrer" />
+            <img src="./images/studio4leaflogo.png" alt="스튜디오 로고" className="h-8 w-auto grayscale opacity-80" />
             <div className="flex gap-3 mt-2">
               <a href="https://blog.naver.com/be_sonder" target="_blank" rel="noopener noreferrer" className="bg-[#03C75A] text-white text-xs font-bold px-3 py-1.5 rounded-full hover:opacity-90 transition-opacity flex items-center gap-1">
                 N 블로그
